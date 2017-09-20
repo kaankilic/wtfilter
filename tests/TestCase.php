@@ -47,7 +47,7 @@ abstract class TestCase extends Orchestra
     protected function getPackageProviders($app)
     {
         return [
-            \Kaankilic\ServerUp\Providers\ServerUpServiceProvider::class
+            \Kaankilic\WTFilter\Providers\WTFilterServiceProvider::class
         ];
     }
 
