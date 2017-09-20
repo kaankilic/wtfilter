@@ -1,4 +1,3 @@
 /vendor/
 composer.lock
-.travis.yml
 .DS_Store
