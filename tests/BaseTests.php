@@ -16,11 +16,9 @@ class BaseTests extends TestCase{
      */
     public function testSimpleCase()
     {
-    	$badWords = "test case is cunt simple";
+    	$badWords = "test case is fuck simple";
     	$hasProfanity = WTFilter::filter($badWords);
-    	dd($hasProfanity);
-//        $ping = ServerUp::ping('http://google.com',80);
-//        $this->assertTrue(ServerUp::getIsTotalyAvail());
+        $this->assertEquals('test case is **** simple',$hasProfanity);
     }
 
 }

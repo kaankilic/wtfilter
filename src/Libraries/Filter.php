@@ -35,7 +35,6 @@ class Filter
             $this->config['defaults'],
             $badWordsArray
         );
-
         $this->generateFilterChecks();
     }
 
