@@ -1,0 +1,33 @@
+{
+	"name":"kaankilic/wtfilter",
+	"description":"What The Filter is Profinaity Filter for Laravel",
+	"license":"MIT",
+	"authors":[
+		{
+			"name":"Kaan Kilic",
+			"email":"bl4cksta@gmail.com"
+		}
+	],
+	"require":{
+		"php":">=5.5.9",
+		"chumper/zipper":"1.0.1"
+	},
+	"require-dev":{
+		"phpunit/phpunit":"^4.8 || ^5.0",
+		"orchestra/testbench":"^3.0",
+		"mockery/mockery":"^0.9.4"
+	},
+	"autoload":{
+		"psr-4":{
+			"Kaankilic\\WTFilter\\":"src/"
+		}
+	},
+	"autoload-dev":{
+		"psr-4":{
+			"Kaankilic\\WTFilter\\Tests\\":"tests/"
+		}
+	},
+	"scripts":{
+		"test":"phpunit"
+	}
+}
