@@ -37,7 +37,9 @@ class Filter
         );
         $this->generateFilterChecks();
     }
-
+    public function wasFiltered(){
+        return $this->wasFiltered;
+    }
     public function reset()
     {
         $this->replaceFullWords($this->config['replaceFullWords']);
