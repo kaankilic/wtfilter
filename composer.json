@@ -1,7 +1,7 @@
 {
 	"name":"kaankilic/wtfilter",
 	"description":"What The Filter is Profinaity Filter for Laravel",
-	"license":"MIT",
+	"license":"BSD-2",
 	"authors":[
 		{
 			"name":"Kaan Kilic",
