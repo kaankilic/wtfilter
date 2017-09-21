@@ -31,6 +31,12 @@ Also, add the `WTFilter` facade to the `aliases` array in your `app` configurati
 Kaankilic\WTFilter\Facades\WTFilter::class
 ```
 
+Lastly, Publish the config and language files.
+```php
+php artisan vendor:publish --provider="Kaankilic\WTFilter\Providers\WTFilterServiceProvider"
+```
+This command will generate the configrations on your `/config` folder, and generate the default `language` folder on your project.
+
 ### Basic Usage
 ```php
 <?php
