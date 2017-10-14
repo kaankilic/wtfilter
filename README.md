@@ -2,6 +2,11 @@
 <img src="https://github.com/kaankilic/wtfilter/raw/master/wtfilter.png" alt="WTFilter" align="center" />
 </p>
 <p align="center">
+    <a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/nnFFeN4MzpSZHU3jDDrodygD/kaankilic/wtfilter'>
+        <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/nnFFeN4MzpSZHU3jDDrodygD/kaankilic/wtfilter.svg' />
+    </a>
+</p>
+<p align="center">
 <a href="https://travis-ci.org/kaankilic/wtfilter"><img src="https://travis-ci.org/kaankilic/wtfilter.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/kaankilic/wtfilter"><img src="https://poser.pugx.org/kaankilic/wtfilter/d/total.svg" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/kaankilic/wtfilter"><img src="https://poser.pugx.org/kaankilic/wtfilter/v/stable.svg" alt="Latest Stable Version"></a>
