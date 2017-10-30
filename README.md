@@ -64,3 +64,22 @@ class CommentsController extends Controller
     }
 }
 ```
+
+### Model Trait Usage
+You can simply use FilterableTrait on your Model to filter profanities.
+
+```php
+<?php 
+...
+use Kaankilic\WTFilter\Traits\FilterableWords;
+class CustomModel extends Model{
+	use FilterableWords;
+
+	public function filterable(){
+		return [
+        	"sources" => ["title"], // trait gonna check this columns
+        	"flag" => "has_profanity" // *optionally you can set flag to any column
+    	];
+    }
+...
+```
