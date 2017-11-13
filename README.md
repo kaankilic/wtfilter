@@ -28,7 +28,7 @@ To get started with WTFilter, use Composer to add the package to your project's 
 ```php
 composer require kaankilic/wtfilter
 ```
-After installing the `WTFilter` library, register the `Kaankilic\Socialite\Providers\WTFilterServiceProvider` in your `config/app.php` configuration file:
+After installing the `WTFilter` library, register the `Kaankilic\WTFilter\Providers\WTFilterServiceProvider` in your `config/app.php` configuration file:
 
 ```php
 Kaankilic\WTFilter\Providers\WTFilterServiceProvider::class,
@@ -36,7 +36,7 @@ Kaankilic\WTFilter\Providers\WTFilterServiceProvider::class,
 Also, add the `WTFilter` facade to the `aliases` array in your `app` configuration file:
 
 ```php
-Kaankilic\WTFilter\Facades\WTFilter::class
+'WTFilter' => Kaankilic\WTFilter\Facades\WTFilter::class
 ```
 
 Lastly, Publish the config and language files.
