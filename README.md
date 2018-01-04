@@ -2,7 +2,11 @@
 <img src="https://github.com/kaankilic/wtfilter/raw/master/wtfilter.png" alt="WTFilter" align="center" />
 </p>
 <p align="center">
-    
+	<a href="https://travis-ci.org/kaankilic/wtfilter"><img src="https://travis-ci.org/kaankilic/wtfilter.svg" alt="Build Status"></a>	
+	<a href="https://packagist.org/packages/kaankilic/wtfilter"><img src="https://poser.pugx.org/kaankilic/wtfilter/d/total.svg" alt="Total Downloads"></a>		
+	<a href="https://packagist.org/packages/kaankilic/wtfilter"><img src="https://poser.pugx.org/kaankilic/wtfilter/v/stable.svg" alt="Latest Stable Version"></a>		 
+	<a href="https://packagist.org/packages/kaankilic/wtfilter"><img src="https://poser.pugx.org/kaankilic/wtfilter/license.svg" alt="License"></a>
+</p>
 
 ## Introduction
 `WTFilter` provides an expressive and fluent way to filter profanities from the content with using it's own engine. `WTFilter` is the simplest stable profanity filter for Laravel.
