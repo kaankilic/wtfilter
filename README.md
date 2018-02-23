@@ -13,7 +13,7 @@
 
 ## License
 
-Laravel WTFilter is open-sourced software licensed under the [BSD-2 license](http://opensource.org/licenses/BSD-2-Clause)
+Laravel WTFilter is open-sourced software licensed under the [MIT](http://opensource.org/licenses/MIT)
 
 ## Official Documentation
 It's simplest way of filtering profanities with the capabilities of Language form. You can set multilangual profanities on each language that you are using on your Laravel project.
