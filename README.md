@@ -82,6 +82,5 @@ class CustomModel extends Model{
 
 ## Contributions
 I am the creator and single contributor of the project. So, Feel free to contribute something useful.
-Especially, thanks to [xembill](https://github.com/xembill) for the contributions.
 Please use Github for reporting bugs, and making comments or suggestions
 
