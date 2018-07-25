@@ -21,7 +21,7 @@ trait FilterableWords
     public static function checkProfanity(){
         $config = self::filterable();
         if (is_array($config["sources"])){
-            foreach($source in $sources){
+            foreach($source as $sources){
                 $model->{{$source}} = WTFilter::filter($model->{{$source}});
             }
         }
